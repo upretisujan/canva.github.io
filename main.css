@@ -1,0 +1,182 @@
+body
+{
+    background-color: #f4f4f6;
+}
+
+.wrapper
+{
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    position: relative;
+}
+.inner-wrapper
+{
+    margin: auto;
+    width: 80%;
+    font-family: "YAFdJjTk5UU 0", _fb_, auto;
+    background-color: white;
+    position: relative;
+}
+
+.logo-nav
+{
+    width: 100%;
+    min-height: 50px;
+    margin-bottom:10px;
+    
+}
+
+.logo
+{
+    width: 25%;
+    min-height:50px;
+    line-height:50px;
+    float: left;
+    position: absolute;
+    font-weight: 400;
+}
+.nav
+{
+    width: 75%;
+    min-height:50px;
+    position: relative;
+    float:right;
+   
+}
+.nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    overflow: hidden; 
+    padding-right: 2%;
+    float: right;
+    
+}
+.nav a
+{
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.nav a:hover
+{
+    background-color: none; 
+}
+.nav li
+{
+    float: left;
+}
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.hero-img
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+.boxes
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.box
+{
+    width: 30%;
+    border: solid 4px;
+    border-color: black;
+    color: aqua;
+    height: 300px;
+    float: inline-start;
+}
+.two
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.one
+{
+    margin-left: 2%;
+}
+.three
+{
+   /* margin-right: 2%; */
+}
+.prefooter
+{
+   margin-left: 10%;
+   margin-right: 2%;
+    
+}
+.social ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    overflow: hidden; 
+    float: left;
+    position: absolute; 
+}
+.social li
+{
+  float: left;  
+}
+.social a
+{
+    padding-right: 15px;
+}
+.copy
+{
+    float: right;
+    position: relative;
+}
+.contact-form
+{
+    border: solid;
+    border-color:beige;
+    background-color:#f4f4f6;
+    padding: 15px;
+    width: 50%;
+}
+.form-input
+{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    
+}
+.message-text-area
+{
+    width: 100%;
+    min-height: 100px;
+}
+.form-button
+{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.form-button
+{
+    
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+}
+.form-text
+{
+    width: 50%;
+    min-height: 25px;
+}
