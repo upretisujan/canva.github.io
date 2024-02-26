@@ -51,7 +51,9 @@ body {
 }
 .nav a {
   width: 100%;
-  color: black;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(195, 0, 0);
   text-decoration: none;
   padding: 15px;
   display: block;
